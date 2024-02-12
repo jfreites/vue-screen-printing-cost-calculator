@@ -1,0 +1,60 @@
+body {
+    background-color: #e7e7e7;
+    color: #777;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+h1.main-title {
+    text-align: center;
+    color: #a8dbe2;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    margin: 0.5rem;
+}
+
+.flex-child:first-child {
+    margin-right: 1rem;
+}
+
+.section {
+    border-radius: 2rem;
+    background-color: #a8dbe2;
+    padding: 1rem;
+}
+
+.settings-section {
+    border-radius: 2rem;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.settings-title {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group>label,
+input {
+    flex: 1;
+    margin: 0.5rem;
+}
+
+.input-group>input {
+    padding: 10px 15px;
+    border-radius: 0.5rem;
+    border-color: #a8dbe2;
+    border-style: solid;
+    border-width: 1px;
+}
