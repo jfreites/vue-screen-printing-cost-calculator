@@ -58,3 +58,33 @@ input {
     border-style: solid;
     border-width: 1px;
 }
+
+.separator {
+    border-width: 0.2rem;
+    border-color: #91d4dd;
+    border-style: solid;
+}
+
+.btn-holder {
+    margin: 0.8rem auto;
+    text-align: center;
+}
+
+.btn {
+    padding: .7rem 1.5rem;
+    background-color: #e7e7e7;
+    color: black;
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    padding: .7rem 1.5rem;
+    background-color: #b8b8b8;
+    color: #e7e7e7;
+    cursor: pointer;
+}
